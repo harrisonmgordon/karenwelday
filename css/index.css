@@ -1,0 +1,12 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Helvetica Neue", "Open Sans";
+}
+.segment.comments .home-desc {
+  display: none;
+}
+.segment.comments #hcb_subscribe,
+.segment.comments #hcb_settings {
+  display: none !important;
+}
