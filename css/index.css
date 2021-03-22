@@ -1,6 +1,6 @@
 @font-face {
-  font-family: zapfino;
-  src: url("https://drive.google.com/uc?export=view&id=1tsg7B9tQ2OuILK1ZBblvDsuB2RhAaU2_") format("opentype");
+  font-family: 'zapfino';
+  src: url("/fonts/ZapfinoForteLTPro.otf") format("opentype");
 }
 * {
   padding: 0px;
