@@ -443,6 +443,9 @@
 {
 	padding-top:20px;
 	padding-bottom:100px;
+	position:relative;
+	background-color:@white;
+	z-index:210;
 
 	#HCB_comment_box
 	{
@@ -584,5 +587,22 @@
 	{
 		display:none;
 	}
+}
+
+.leave-message
+{
+	display:block;
+	padding:10px 30px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	z-index:200;
+	background-color:@white;
+	border:solid 3px @dark-blue;
+	box-shadow:@shallow-box-shadow;
+	color:@dark-blue;
+	text-decoration: none;
+	border-radius:50px;
+
 }
 

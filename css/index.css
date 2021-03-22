@@ -330,6 +330,9 @@
 .segment.comments {
   padding-top: 20px;
   padding-bottom: 100px;
+  position: relative;
+  background-color: #FFFFFF;
+  z-index: 210;
 }
 .segment.comments #HCB_comment_box {
   max-width: 800px;
@@ -428,4 +431,18 @@
 }
 .segment.comments .hcb-link.del {
   display: none;
+}
+.leave-message {
+  display: block;
+  padding: 10px 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  background-color: #FFFFFF;
+  border: solid 3px #00497B;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  color: #00497B;
+  text-decoration: none;
+  border-radius: 50px;
 }
