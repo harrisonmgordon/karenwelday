@@ -426,3 +426,6 @@
 .segment.comments #no_comments {
   display: none;
 }
+.segment.comments .hcb-link.del {
+  display: none;
+}
