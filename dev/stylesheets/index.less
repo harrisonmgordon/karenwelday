@@ -45,6 +45,23 @@
 	font-family:"Helvetica Neue", "Open Sans";
 	color:@black;
 }
+
+.expand
+{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	background-color:@white;
+	box-shadow:@small-box-shadow;
+	padding:10px;
+	border-radius:50px;
+
+	img
+	{
+		width:12px;
+		height:12px;
+	}
+}
  
 .segment
 {
@@ -58,7 +75,7 @@
 
 	.segment-content
 	{
-		max-width:800px;
+		max-width:900px;
 		margin:auto;
 		padding-bottom:20px;
 
@@ -90,6 +107,12 @@
 		.description
 		{
 			line-height:2em;
+			font-size:22px;
+
+			@media @mobile
+			{
+				font-size:16px;
+			}
 		}
 
 		.options
@@ -124,7 +147,7 @@
 	.segment-left
 	{
 		z-index:10;
-		width:30%;
+		width:40%;
 		float:left;
 
 		@media @mobile
@@ -143,7 +166,7 @@
 	.segment-right
 	{
 		z-index:10;
-		width:30%;
+		width:40%;
 		float:right;
 
 		@media @mobile
@@ -161,7 +184,7 @@
 
 	.segment-left.segment-large, .segment-right.segment-large
 	{
-		width:60%;
+		width:55%;
 
 		@media @mobile
 		{
@@ -289,7 +312,7 @@
 
 		@media @large-desktop
 		{
-			padding-top:300px;
+			padding-top:250px;
 			padding-bottom:200px;
 		}
 	}
@@ -301,7 +324,7 @@
 		box-shadow:@shallow-box-shadow;
 		position:relative;
 		.clearfix;
-		margin-top:-150px;
+		margin-top:-100px;
 
 		@media @mobile
 		{
@@ -398,6 +421,7 @@
 		vertical-align:top;
 		.clearfix;
 		margin-bottom:50px;
+		position:relative;
 
 		@media @mobile
 		{
@@ -449,7 +473,7 @@
 
 	#HCB_comment_box
 	{
-		max-width:800px;
+		max-width:900px;
 		margin:auto;
 
 		@media @mobile
