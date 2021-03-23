@@ -43,7 +43,7 @@
 }
 .segment .segment-content h1 {
   color: #FFFFFF;
-  font-family: "zapfino";
+  font-family: "Pinyon Script";
 }
 .segment .segment-content h2 {
   color: #00497B;
@@ -171,18 +171,18 @@
   position: absolute;
   width: 100%;
   bottom: 0px;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   margin-left: 0px;
   margin-right: 0px;
   max-width: unset;
 }
 .segment.hero .segment-content h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 96px;
 }
 @media screen and (max-width:1024px) {
   .segment.hero .segment-content h1 {
-    font-size: 24px;
+    font-size: 42px;
   }
 }
 .segment.wavy {
